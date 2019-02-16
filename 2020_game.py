@@ -1,3 +1,8 @@
+
+import vlc
+p = vlc.MediaPlayer("CNN.mp3")
+p.play()
+
 candidates = [
 	'Donald Trump', 
 	'Bernie Sanders', 
