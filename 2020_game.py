@@ -1,7 +1,9 @@
-
 import vlc
-p = vlc.MediaPlayer("CNN.mp3")
+import time
+
+p = vlc.MediaPlayer("file:///Users/jantristan/Desktop/KickStartCoding/PythonGame/CNN.mp3")
 p.play()
+time.sleep(60)
 
 candidates = [
 	'Donald Trump', 
